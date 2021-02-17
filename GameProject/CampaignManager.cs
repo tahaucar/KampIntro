@@ -4,17 +4,17 @@ using System.Text;
 
 namespace GameProject
 {
-    class CampaingManager : ICampaingManager
+    class CampaignManager : ICampaignManager
     {
 
         private IOrderManager _orderManager;
 
-        public CampaingManager(IOrderManager orderManager)
+        public CampaignManager(IOrderManager orderManager)
         {
             _orderManager = orderManager;
         }
 
-        public void Add(Campaing campaing)
+        public void Add(Campaign campaing)
         {
             if (_orderManager.Sales(campaing) == true)
             {
@@ -26,12 +26,12 @@ namespace GameProject
             }
         }
 
-        public void Delete(Campaing campaing)
+        public void Delete(Campaign campaing)
         {
             Console.WriteLine("Kampanya silindi");
         }
 
-        public void Update(Campaing campaing)
+        public void Update(Campaign campaing)
         {
             Console.WriteLine("Kampanya güncellendi");
         }

@@ -4,11 +4,11 @@ using System.Text;
 
 namespace GameProject
 {
-    class Campaing
+    class Campaign
     {
         public int Id { get; set; }
-        public string CampaingName { get; set; }
-        public int RateOfCampaing { get; set; }
+        public string CampaignName { get; set; }
+        public int RateOfCampaign { get; set; }
     }
 }
 

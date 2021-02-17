@@ -6,7 +6,7 @@ namespace GameProject
 {
     interface IOrderManager
     {
-        bool Sales(Campaing campaing);
+        bool Sales(Campaign campaign);
     }
 }
 

@@ -6,10 +6,10 @@ namespace GameProject
 {
     class OrderManager : IOrderManager
     {
-        public bool Sales(Campaing campaing)
+        public bool Sales(Campaign campaign)
         {
 
-            if (campaing.Id == 1 && campaing.CampaingName == "Muhteşem Kampanya" && campaing.RateOfCampaing == 10)
+            if (campaign.Id == 1 && campaign.CampaignName == "Muhteşem Kampanya" && campaign.RateOfCampaign == 10)
             {
                 return true;
             }
